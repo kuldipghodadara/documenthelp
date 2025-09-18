@@ -5,11 +5,9 @@ const WhatsAppFloat = () => {
   const [isVisible, setIsVisible] = useState(true);
 
   const handleWhatsAppClick = () => {
-    // Replace with your actual WhatsApp number (with country code, no + or spaces)
-    const phoneNumber = "7623922532"; // Replace with your number
-    const message = "Hi! I need help with document services.";
-    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-    window.open(url, '_blank');
+ const groupLink='IXqJxR2RSPIDAm4IBGNUBh'
+      const url = `https://chat.whatsapp.com/${groupLink}`; // Replace with your group's invite link
+  window.open(url, '_blank');
   };
 
   if (!isVisible) return null;
@@ -21,7 +19,8 @@ const WhatsAppFloat = () => {
         className="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 animate-pulse hover:animate-none"
         aria-label="Contact us on WhatsApp"
       >
-        <MessageCircle className="h-6 w-6" />
+        
+  <img src="/whatsapp.svg" alt="WhatsApp" className="h-6 w-6" />
       </button>
       
       {/* Tooltip */}

@@ -2,11 +2,9 @@ import { Phone, Mail, MapPin, FileText, MessageCircle } from "lucide-react";
 
 const Footer = () => {
   const handleWhatsAppClick = () => {
-    // Replace with your actual WhatsApp number (with country code, no + or spaces)
-    const phoneNumber = "7623922532"; // Replace with your number
-    const message = "Hi! I need help with document services.";
-    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-    window.open(url, '_blank');
+    const groupLink='IXqJxR2RSPIDAm4IBGNUBh'
+      const url = `https://chat.whatsapp.com/${groupLink}`; // Replace with your group's invite link
+  window.open(url, '_blank');
   };
 
   return (
@@ -32,7 +30,7 @@ const Footer = () => {
               onClick={handleWhatsAppClick}
               className="inline-flex items-center px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg transition-colors duration-200"
             >
-              <MessageCircle className="mr-2 h-4 w-4" />
+  <img src="/whatsapp.svg" alt="WhatsApp" className="mr-2 h-6 w-6" />
               WhatsApp Us
             </button>
           </div>
@@ -54,14 +52,19 @@ const Footer = () => {
           <div>
             <h4 className="text-foreground font-semibold mb-4">Contact Info</h4>
             <div className="space-y-3 text-muted-foreground">
-              <div className="flex items-center space-x-2">
-                <Phone className="h-4 w-4 text-primary" />
-                <span>+91 7623922532</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <Phone className="h-4 w-4 text-primary" />
-                <span>+91 99258 09870</span>
-              </div>
+ <div className="flex items-center space-x-2">
+  <a href="tel:+917623922532" className="flex items-center space-x-1 ">
+    <Phone className="h-4 w-4 text-primary" />
+    <span>+91 76239 22532</span>
+  </a>
+</div>
+
+               <div className="flex items-center space-x-2">
+  <a href="tel:+919925809870" className="flex items-center space-x-1 ">
+    <Phone className="h-4 w-4 text-primary" />
+    <span>+91 99258 09870</span>
+  </a>
+</div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-primary" />
                 <span>info@docuhelp.com</span>
