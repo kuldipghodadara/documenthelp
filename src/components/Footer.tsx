@@ -79,7 +79,7 @@ const Footer = () => {
 
         <div className="border-t border-border mt-8 pt-8 text-center text-muted-foreground">
           <p>&copy; 2024 DocuHelp. All rights reserved. Professional Document Services.</p>
-                    <p>Developed by Kuldip</p>
+                    <p>Design by Hemang and Developed by Kuldip</p>
 
         </div>
       </div>

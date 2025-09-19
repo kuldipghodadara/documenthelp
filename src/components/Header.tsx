@@ -14,6 +14,7 @@ const Header = () => {
   ];
 
   const handleContactClick = () => {
+    setIsMenuOpen(false)
     const contactSection = document.getElementById("contact");
     if (contactSection) {
       contactSection.scrollIntoView({ behavior: "smooth" });
