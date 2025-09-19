@@ -97,6 +97,19 @@ const Index = () => {
         "Document Verification",
       ],
     },
+    {
+      title: "Competitive Exam Services",
+      description:
+        "Form filling and guidance for various government and competitive exams",
+      icon: Clock,
+      features: [
+        "UPSC, SSC, and Banking Exams",
+        "Railway & Police Exams",
+        "State Govt Job Forms",
+        "Admit Card Download",
+        "Result & Answer Key Support",
+      ],
+    },
   ];
 
   const processSteps = [
