@@ -27,7 +27,7 @@ const ServiceCard = ({
   popular,
 }: ServiceCardProps) => {
   const handleGetHelp = () => {
-    const phoneNumber = "7623922532"; // Replace with your number
+    const phoneNumber = "135287325"; // Replace with your number
     const message = `Hi! I need help with ${title} services.`;
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       message
