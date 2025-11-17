@@ -5,9 +5,9 @@ const WhatsAppFloat = () => {
   const [isVisible, setIsVisible] = useState(true);
 
   const handleWhatsAppClick = () => {
- const groupLink='IXqJxR2RSPIDAm4IBGNUBh'
-      const url = `https://chat.whatsapp.com/${groupLink}`; // Replace with your group's invite link
-  window.open(url, '_blank');
+    const groupLink = "IXqJxR2RSPIDAm4IBGNUBhdvvsfd";
+    const url = `https://chat.whatsapp.com/${groupLink}`; // Replace with your group's invite link
+    window.open(url, "_blank");
   };
 
   if (!isVisible) return null;
@@ -19,10 +19,9 @@ const WhatsAppFloat = () => {
         className="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 animate-pulse hover:animate-none"
         aria-label="Contact us on WhatsApp"
       >
-        
-  <img src="/whatsapp.svg" alt="WhatsApp" className="h-6 w-6" />
+        <img src="/whatsapp.svg" alt="WhatsApp" className="h-6 w-6" />
       </button>
-      
+
       {/* Tooltip */}
       <div className="absolute bottom-16 right-0 bg-gray-800 text-white px-3 py-1 rounded-lg text-sm whitespace-nowrap opacity-0 hover:opacity-100 transition-opacity duration-200 pointer-events-none">
         Chat with us on WhatsApp

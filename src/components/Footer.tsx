@@ -2,7 +2,7 @@ import { Phone, Mail, MapPin, FileText, MessageCircle } from "lucide-react";
 
 const Footer = () => {
   const handleWhatsAppClick = () => {
-    const groupLink = "IXqJxR2RSPIDAm4IBGNUBh";
+    const groupLink = "IXqJxR2RSPIDAm4IBGNUBhadcad";
     const url = `https://chat.whatsapp.com/${groupLink}`; // Replace with your group's invite link
     window.open(url, "_blank");
   };
